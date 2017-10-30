@@ -10,7 +10,7 @@
 
 
 
-@interface DiscoView : UIView
+@interface ObjectiveDiscoView : UIView
 
 @property (atomic, strong) NSArray* colours;
 @property (atomic) int counter;

@@ -15,7 +15,7 @@
 		83B98CEC1FA74549005EC928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B98CEA1FA74549005EC928 /* LaunchScreen.storyboard */; };
 		83B98CF71FA74549005EC928 /* DiscoViewObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98CF61FA74549005EC928 /* DiscoViewObjectiveCTests.m */; };
 		83B98D021FA74549005EC928 /* DiscoViewObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98D011FA74549005EC928 /* DiscoViewObjectiveCUITests.m */; };
-		83B98D111FA7456C005EC928 /* DiscoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98D101FA7456C005EC928 /* DiscoView.m */; };
+		83B98D111FA7456C005EC928 /* ObjectiveDiscoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98D101FA7456C005EC928 /* ObjectiveDiscoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		83B98CFD1FA74549005EC928 /* DiscoViewObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoViewObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B98D011FA74549005EC928 /* DiscoViewObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoViewObjectiveCUITests.m; sourceTree = "<group>"; };
 		83B98D031FA74549005EC928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83B98D0F1FA7456C005EC928 /* DiscoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoView.h; sourceTree = "<group>"; };
-		83B98D101FA7456C005EC928 /* DiscoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoView.m; sourceTree = "<group>"; };
+		83B98D0F1FA7456C005EC928 /* ObjectiveDiscoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveDiscoView.h; sourceTree = "<group>"; };
+		83B98D101FA7456C005EC928 /* ObjectiveDiscoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveDiscoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				83B98CE01FA74549005EC928 /* AppDelegate.m */,
 				83B98CE21FA74549005EC928 /* ViewController.h */,
 				83B98CE31FA74549005EC928 /* ViewController.m */,
-				83B98D0F1FA7456C005EC928 /* DiscoView.h */,
-				83B98D101FA7456C005EC928 /* DiscoView.m */,
+				83B98D0F1FA7456C005EC928 /* ObjectiveDiscoView.h */,
+				83B98D101FA7456C005EC928 /* ObjectiveDiscoView.m */,
 				83B98CE51FA74549005EC928 /* Main.storyboard */,
 				83B98CE81FA74549005EC928 /* Assets.xcassets */,
 				83B98CEA1FA74549005EC928 /* LaunchScreen.storyboard */,
@@ -284,7 +284,7 @@
 				83B98CE41FA74549005EC928 /* ViewController.m in Sources */,
 				83B98CE11FA74549005EC928 /* AppDelegate.m in Sources */,
 				83B98CDE1FA74549005EC928 /* main.m in Sources */,
-				83B98D111FA7456C005EC928 /* DiscoView.m in Sources */,
+				83B98D111FA7456C005EC928 /* ObjectiveDiscoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +522,7 @@
 				83B98D081FA74549005EC928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83B98D091FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +531,7 @@
 				83B98D0B1FA74549005EC928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83B98D0C1FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveCUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +540,7 @@
 				83B98D0E1FA74549005EC928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

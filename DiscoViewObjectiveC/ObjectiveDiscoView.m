@@ -6,11 +6,11 @@
 //  Copyright © 2017 Chris. All rights reserved.
 //
 
-#import "DiscoView.h"
+#import "ObjectiveDiscoView.h"
 
 
 
-@implementation DiscoView
+@implementation ObjectiveDiscoView
 
 -(instancetype)initWithFrame:(CGRect)frame{
     
