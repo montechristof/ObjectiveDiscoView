@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B98CDE1FA74549005EC928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98CDD1FA74549005EC928 /* main.m */; };
+		83B98CE11FA74549005EC928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98CE01FA74549005EC928 /* AppDelegate.m */; };
+		83B98CE41FA74549005EC928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98CE31FA74549005EC928 /* ViewController.m */; };
+		83B98CE71FA74549005EC928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B98CE51FA74549005EC928 /* Main.storyboard */; };
+		83B98CE91FA74549005EC928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B98CE81FA74549005EC928 /* Assets.xcassets */; };
+		83B98CEC1FA74549005EC928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B98CEA1FA74549005EC928 /* LaunchScreen.storyboard */; };
+		83B98CF71FA74549005EC928 /* DiscoViewObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98CF61FA74549005EC928 /* DiscoViewObjectiveCTests.m */; };
+		83B98D021FA74549005EC928 /* DiscoViewObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98D011FA74549005EC928 /* DiscoViewObjectiveCUITests.m */; };
+		83B98D111FA7456C005EC928 /* DiscoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B98D101FA7456C005EC928 /* DiscoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B98CF31FA74549005EC928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B98CD11FA74549005EC928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B98CD81FA74549005EC928;
+			remoteInfo = DiscoViewObjectiveC;
+		};
+		83B98CFE1FA74549005EC928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B98CD11FA74549005EC928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B98CD81FA74549005EC928;
+			remoteInfo = DiscoViewObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83B98CD91FA74549005EC928 /* DiscoViewObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoViewObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B98CDD1FA74549005EC928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83B98CDF1FA74549005EC928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83B98CE01FA74549005EC928 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83B98CE21FA74549005EC928 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83B98CE31FA74549005EC928 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83B98CE61FA74549005EC928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83B98CE81FA74549005EC928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B98CEB1FA74549005EC928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83B98CED1FA74549005EC928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B98CF21FA74549005EC928 /* DiscoViewObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoViewObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B98CF61FA74549005EC928 /* DiscoViewObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoViewObjectiveCTests.m; sourceTree = "<group>"; };
+		83B98CF81FA74549005EC928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B98CFD1FA74549005EC928 /* DiscoViewObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoViewObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B98D011FA74549005EC928 /* DiscoViewObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoViewObjectiveCUITests.m; sourceTree = "<group>"; };
+		83B98D031FA74549005EC928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B98D0F1FA7456C005EC928 /* DiscoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoView.h; sourceTree = "<group>"; };
+		83B98D101FA7456C005EC928 /* DiscoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B98CD61FA74549005EC928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B98CEF1FA74549005EC928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B98CFA1FA74549005EC928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B98CD01FA74549005EC928 = {
+			isa = PBXGroup;
+			children = (
+				83B98CDB1FA74549005EC928 /* DiscoViewObjectiveC */,
+				83B98CF51FA74549005EC928 /* DiscoViewObjectiveCTests */,
+				83B98D001FA74549005EC928 /* DiscoViewObjectiveCUITests */,
+				83B98CDA1FA74549005EC928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B98CDA1FA74549005EC928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B98CD91FA74549005EC928 /* DiscoViewObjectiveC.app */,
+				83B98CF21FA74549005EC928 /* DiscoViewObjectiveCTests.xctest */,
+				83B98CFD1FA74549005EC928 /* DiscoViewObjectiveCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B98CDB1FA74549005EC928 /* DiscoViewObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				83B98CDF1FA74549005EC928 /* AppDelegate.h */,
+				83B98CE01FA74549005EC928 /* AppDelegate.m */,
+				83B98CE21FA74549005EC928 /* ViewController.h */,
+				83B98CE31FA74549005EC928 /* ViewController.m */,
+				83B98D0F1FA7456C005EC928 /* DiscoView.h */,
+				83B98D101FA7456C005EC928 /* DiscoView.m */,
+				83B98CE51FA74549005EC928 /* Main.storyboard */,
+				83B98CE81FA74549005EC928 /* Assets.xcassets */,
+				83B98CEA1FA74549005EC928 /* LaunchScreen.storyboard */,
+				83B98CED1FA74549005EC928 /* Info.plist */,
+				83B98CDC1FA74549005EC928 /* Supporting Files */,
+			);
+			path = DiscoViewObjectiveC;
+			sourceTree = "<group>";
+		};
+		83B98CDC1FA74549005EC928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83B98CDD1FA74549005EC928 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83B98CF51FA74549005EC928 /* DiscoViewObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				83B98CF61FA74549005EC928 /* DiscoViewObjectiveCTests.m */,
+				83B98CF81FA74549005EC928 /* Info.plist */,
+			);
+			path = DiscoViewObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		83B98D001FA74549005EC928 /* DiscoViewObjectiveCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83B98D011FA74549005EC928 /* DiscoViewObjectiveCUITests.m */,
+				83B98D031FA74549005EC928 /* Info.plist */,
+			);
+			path = DiscoViewObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B98CD81FA74549005EC928 /* DiscoViewObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B98D061FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveC" */;
+			buildPhases = (
+				83B98CD51FA74549005EC928 /* Sources */,
+				83B98CD61FA74549005EC928 /* Frameworks */,
+				83B98CD71FA74549005EC928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscoViewObjectiveC;
+			productName = DiscoViewObjectiveC;
+			productReference = 83B98CD91FA74549005EC928 /* DiscoViewObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83B98CF11FA74549005EC928 /* DiscoViewObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B98D091FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveCTests" */;
+			buildPhases = (
+				83B98CEE1FA74549005EC928 /* Sources */,
+				83B98CEF1FA74549005EC928 /* Frameworks */,
+				83B98CF01FA74549005EC928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B98CF41FA74549005EC928 /* PBXTargetDependency */,
+			);
+			name = DiscoViewObjectiveCTests;
+			productName = DiscoViewObjectiveCTests;
+			productReference = 83B98CF21FA74549005EC928 /* DiscoViewObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83B98CFC1FA74549005EC928 /* DiscoViewObjectiveCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B98D0C1FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveCUITests" */;
+			buildPhases = (
+				83B98CF91FA74549005EC928 /* Sources */,
+				83B98CFA1FA74549005EC928 /* Frameworks */,
+				83B98CFB1FA74549005EC928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B98CFF1FA74549005EC928 /* PBXTargetDependency */,
+			);
+			name = DiscoViewObjectiveCUITests;
+			productName = DiscoViewObjectiveCUITests;
+			productReference = 83B98CFD1FA74549005EC928 /* DiscoViewObjectiveCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B98CD11FA74549005EC928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Chris;
+				TargetAttributes = {
+					83B98CD81FA74549005EC928 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L845YWH28K;
+						ProvisioningStyle = Automatic;
+					};
+					83B98CF11FA74549005EC928 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L845YWH28K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83B98CD81FA74549005EC928;
+					};
+					83B98CFC1FA74549005EC928 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L845YWH28K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83B98CD81FA74549005EC928;
+					};
+				};
+			};
+			buildConfigurationList = 83B98CD41FA74549005EC928 /* Build configuration list for PBXProject "DiscoViewObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B98CD01FA74549005EC928;
+			productRefGroup = 83B98CDA1FA74549005EC928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B98CD81FA74549005EC928 /* DiscoViewObjectiveC */,
+				83B98CF11FA74549005EC928 /* DiscoViewObjectiveCTests */,
+				83B98CFC1FA74549005EC928 /* DiscoViewObjectiveCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B98CD71FA74549005EC928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B98CEC1FA74549005EC928 /* LaunchScreen.storyboard in Resources */,
+				83B98CE91FA74549005EC928 /* Assets.xcassets in Resources */,
+				83B98CE71FA74549005EC928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B98CF01FA74549005EC928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B98CFB1FA74549005EC928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B98CD51FA74549005EC928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B98CE41FA74549005EC928 /* ViewController.m in Sources */,
+				83B98CE11FA74549005EC928 /* AppDelegate.m in Sources */,
+				83B98CDE1FA74549005EC928 /* main.m in Sources */,
+				83B98D111FA7456C005EC928 /* DiscoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B98CEE1FA74549005EC928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B98CF71FA74549005EC928 /* DiscoViewObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B98CF91FA74549005EC928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B98D021FA74549005EC928 /* DiscoViewObjectiveCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B98CF41FA74549005EC928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B98CD81FA74549005EC928 /* DiscoViewObjectiveC */;
+			targetProxy = 83B98CF31FA74549005EC928 /* PBXContainerItemProxy */;
+		};
+		83B98CFF1FA74549005EC928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B98CD81FA74549005EC928 /* DiscoViewObjectiveC */;
+			targetProxy = 83B98CFE1FA74549005EC928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83B98CE51FA74549005EC928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B98CE61FA74549005EC928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83B98CEA1FA74549005EC928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B98CEB1FA74549005EC928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83B98D041FA74549005EC928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B98D051FA74549005EC928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83B98D071FA74549005EC928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L845YWH28K;
+				INFOPLIST_FILE = DiscoViewObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisIndustries.DiscoViewObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83B98D081FA74549005EC928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L845YWH28K;
+				INFOPLIST_FILE = DiscoViewObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisIndustries.DiscoViewObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83B98D0A1FA74549005EC928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L845YWH28K;
+				INFOPLIST_FILE = DiscoViewObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisIndustries.DiscoViewObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoViewObjectiveC.app/DiscoViewObjectiveC";
+			};
+			name = Debug;
+		};
+		83B98D0B1FA74549005EC928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L845YWH28K;
+				INFOPLIST_FILE = DiscoViewObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisIndustries.DiscoViewObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoViewObjectiveC.app/DiscoViewObjectiveC";
+			};
+			name = Release;
+		};
+		83B98D0D1FA74549005EC928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L845YWH28K;
+				INFOPLIST_FILE = DiscoViewObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisIndustries.DiscoViewObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscoViewObjectiveC;
+			};
+			name = Debug;
+		};
+		83B98D0E1FA74549005EC928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L845YWH28K;
+				INFOPLIST_FILE = DiscoViewObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisIndustries.DiscoViewObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscoViewObjectiveC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B98CD41FA74549005EC928 /* Build configuration list for PBXProject "DiscoViewObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B98D041FA74549005EC928 /* Debug */,
+				83B98D051FA74549005EC928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B98D061FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B98D071FA74549005EC928 /* Debug */,
+				83B98D081FA74549005EC928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83B98D091FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B98D0A1FA74549005EC928 /* Debug */,
+				83B98D0B1FA74549005EC928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83B98D0C1FA74549005EC928 /* Build configuration list for PBXNativeTarget "DiscoViewObjectiveCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B98D0D1FA74549005EC928 /* Debug */,
+				83B98D0E1FA74549005EC928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B98CD11FA74549005EC928 /* Project object */;
+}
